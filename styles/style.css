@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@0,400;0,500;1,500&family=Work+Sans&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.jus-btn{
+    color: #fff;
+    font-size: 18px;
+    background-color: #B68C5A;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 8px;
+}
