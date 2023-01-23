@@ -12,3 +12,28 @@ body{
     padding: 15px 25px;
     border-radius: 8px;
 }
+
+.jus-fs{
+    font-size: 8px;
+}
+
+
+
+@media only screen and (max-width:576px) {
+    .card h1{
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .card p{
+        font-size: 8px;
+        padding: 0 20px;
+    }
+    .jus-btn-resizeing{
+        font-size: 10px;
+        padding: 10px 18px;
+    }
+    .jus-input-resizing{
+        font-size: 10px;
+        padding: 10px 25px;
+    }
+}
