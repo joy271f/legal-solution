@@ -3,7 +3,9 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-
+.primary-color{
+    color: #B68C5A;
+}
 .jus-btn{
     color: #fff;
     font-size: 18px;
@@ -35,5 +37,10 @@ body{
     .jus-input-resizing{
         font-size: 10px;
         padding: 10px 25px;
+    }
+
+    .jus-border-color{
+        border: 1px solid #B68C5A !important;
+        margin-bottom: 10px !important;
     }
 }

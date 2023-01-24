@@ -17,14 +17,19 @@
     <link rel="stylesheet" href="styles/style.css" />
 
     <!-- font awesome -->
-    <script src="https://kit.fontawesome.com/0e3b707d31.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/0e3b707d31.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
+
   <body>
+    <!-- Header Section Start -->
     <header class="container">
       <nav class="navbar navbar-expand-lg mt-3">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img class="w-75" src="images/logo2.png" alt="">
+            <img class="w-75" src="images/logo2.png" alt="" />
           </a>
           <button
             class="navbar-toggler"
@@ -43,21 +48,47 @@
                 <a class="nav-link" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item px-3">
-                <a class="nav-link" href="#">Services <i class="fa-solid fa-angle-right"></i></a>
+                <a class="nav-link" href="#"
+                  >Services <i class="fa-solid fa-angle-right"></i
+                ></a>
               </li>
               <li class="nav-item px-3">
-                <a class="nav-link" href="#">Cases <i class="fa-solid fa-angle-right"></i></a>
+                <a class="nav-link" href="#"
+                  >Cases <i class="fa-solid fa-angle-right"></i
+                ></a>
               </li>
               <li class="nav-item px-3">
-                <a class="nav-link" href="#">Blog <i class="fa-solid fa-angle-right"></i></a>
+                <a class="nav-link" href="#"
+                  >Blog <i class="fa-solid fa-angle-right"></i
+                ></a>
               </li>
               <li class="nav-item px-3">
-                <a class="nav-link" href="#">Contact Us <i class="fa-solid fa-angle-right"></i></a>
+                <a class="nav-link" href="#"
+                  >Contact Us <i class="fa-solid fa-angle-right"></i
+                ></a>
               </li>
             </ul>
-              <button class="jus-btn" type="submit">
-                Free Consultation
-              </button>
+            <!-- Button trigger modal -->
+            <Free class="jus-btn" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal">Free Consultation</button>
+            <!-- Modal Start-->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5 text-dark" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <h1 class="text-dark fs-6">Toggle a working modal demo by clicking the button below. It will slide down and fade in from the top of the page.</h1>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Modal end -->
           </div>
         </div>
       </nav>
@@ -65,19 +96,129 @@
 
     <!-- main section start -->
     <main class="container">
-      <div class="card text-bg-dark mt-3">
-        <img src="images/banner.png" class="card-img opacity-75" alt="...">
-        <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center text-center">
-          <h1 class="card-title">We Provide Effective <br> Legal Solutions</h1>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-          <div class="d-flex flex-row">
-            <input type="email" class="form-control p-3 me-3 jus-input-resizing" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Search your services">
-            <button class="jus-btn jus-btn-resizeing" type="submit">
-              Search
-            </button>
+      <!-- Banner Section Start -->
+      <section>
+        <div class="card text-bg-dark mt-3">
+          <img src="images/banner.png" class="card-img opacity-75" alt="..." />
+          <div
+            class="card-img-overlay d-flex flex-column justify-content-center align-items-center text-center"
+          >
+            <h1 class="card-title fw-bolder">
+              We Provide Effective <br />
+              Legal Solutions
+            </h1>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content.
+            </p>
+            <div class="d-flex flex-row">
+              <input
+                type="email"
+                class="form-control p-3 px-md-5 me-3 jus-input-resizing"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="Search your services"
+              />
+              <button class="jus-btn jus-btn-resizeing" type="submit">
+                Search
+              </button>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
+      
+      <!-- Practice Area Section Start -->
+      <section class="my-5">
+        <div class="text-center">
+          <h1 class="fw-bolder">The Legal Practice Area</h1>
+          <p class="fs-sm-6 fw-light mt-3">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
+        </div>
+
+        <!-- Practice Card Area -->
+        <!-- card 01 -->
+        <div class="d-flex flex-column flex-md-row align-items-center justify-content-center mt-5">
+          <div>
+            <div class="border-bottom border-warning-subtle jus-border-color">
+              <div class="card text-center border-0" style="width: 18rem;">
+                <img src="images/business.png" class="card-img-top w-25 mx-auto" alt="...">
+                <div class="card-body mb-2">
+                  <h5 class="card-title mt-3 fw-bolder">Business Law</h5>
+                  <p class="card-text ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                  <a href="#" class="primary-color"><i class="fa-solid fa-circle-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card 02 -->
+          <div>
+            <div class="border border-warning-subtle jus-border-color">
+              <div class="card text-center border-0" style="width: 18rem;">
+                <img src="images/criminal.png" class="card-img-top w-25 mx-auto" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title mt-3 fw-bolder">Criminal Law</h5>
+                  <p class="card-text ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                  <a href="#" class="primary-color"><i class="fa-solid fa-circle-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card 03 -->
+          <div>
+            <div class="border-bottom border-warning-subtle jus-border-color">
+              <div class="card text-center border-0" style="width: 18rem;">
+                <img src="images/child.png" class="card-img-top w-25 mx-auto" alt="...">
+                <div class="card-body mb-3">
+                  <h5 class="card-title mt-3 fw-bolder">Child Support</h5>
+                  <p class="card-text ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                  <a href="#" class="primary-color"><i class="fa-solid fa-circle-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Again Same Card -->
+        <!-- card 01.1 -->
+        <div class="d-flex flex-column flex-md-row align-items-center justify-content-center">
+          <div>
+            <div class=" border-end border-warning-subtle jus-border-color">
+              <div class="card text-center border-0" style="width: 18rem;">
+                <img src="images/education.png" class="card-img-top w-25 mx-auto" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title mt-3 fw-bolder">Education Law</h5>
+                  <p class="card-text ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                  <a href="#" class="primary-color"><i class="fa-solid fa-circle-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card 02.1 -->
+          <div>
+            <div class="jus-border-color">
+              <div class="card text-center border-0" style="width: 18rem;">
+                <img src="images/divorce.png" class="card-img-top w-25 mx-auto" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title mt-3 fw-bolder">Divorce Law</h5>
+                  <p class="card-text ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                  <a href="#" class="primary-color"><i class="fa-solid fa-circle-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card 03.1 -->
+              <div>
+                <div class="jus-border-color border-start border-warning-subtle ">
+                  <div class="card text-center border-0" style="width: 18rem;">
+                    <img src="images/tax.png" class="card-img-top w-25 mx-auto" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title mt-4 fw-bolder">Tax Law</h5>
+                      <p class="card-text ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                      <a href="#" class="primary-color"><i class="fa-solid fa-circle-arrow-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
       </section>
     </main>
     <!-- footer section start -->
