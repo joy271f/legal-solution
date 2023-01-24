@@ -14,6 +14,19 @@ body{
     padding: 15px 25px;
     border-radius: 8px;
 }
+.jus-input-footer{
+    padding: 10px 10px !important;
+    font-size: 16px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.jus-btn-footer{
+    position: relative;
+    padding: 9px 30px;
+    left: 150px;
+    top: 2px;
+}
 
 .jus-fs{
     font-size: 8px;
